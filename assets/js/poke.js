@@ -32,7 +32,9 @@ const pagina = (url) => {
             html += '<div class="card" style="width: 14rem; m-5">';
             html += `<img class="card-img-top" src= "${json.sprites.other.dream_world.front_default}" alt="...">`;
             html += '<div class="card-body">';
-            html += `<h5 class= "">${json.name}</h5>`;
+            html += `<h5 class= "card-title">${json.name}</h5>`;
+            html += `<p class= "card-text">Altura:${json.height}</p>`;
+            html += `<p class= "card-text">Peso:${json.weight}</p>`;
             html += '</div>';
             html += '</div>';
             html += '</div>';
