@@ -45,4 +45,5 @@ const pagina = (url) => {
         })
 }
 
+
 getData(API);
